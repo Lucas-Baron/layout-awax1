@@ -399,7 +399,8 @@ header{
     height: 100%;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
+    padding: 30px;
 }
 
 .section-team-area .sliders-pointers{
@@ -421,5 +422,210 @@ header{
 }
 
 .section-team-area .pointer.active{
+    background-color: var(--color-orange);
+}
+
+.section-team--avatar{
+    width: 150px;
+    height: auto;
+}
+
+.section-team--name{
+    text-transform: uppercase;
+    font-weight:600 ;
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+.section-team--role{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #999;
+    margin-top: 5px;
+}
+
+.section-team--social{
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-team--social a{
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    background-color: #CCC;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+.section-team--social a:hover{
+    background-color: var(--color-orange);
+}
+
+/*== Happy Clients ==*/
+.section-clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-client--name{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.section-client--role{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-client--img{
+    width: 20px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.section-client--text{
+    max-width: 740px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999;
+    text-align: center;
+}
+
+.section-clients .sliders-pointers{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-clients .pointer{
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--color-orange);
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-clients .pointer.active{
+    background-color: var(--color-orange);
+}
+
+/*== sponsors ==*/
+
+.sponsor{
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsors{
+    max-width: 1114px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsors a{
+    width: 220px;
+    padding: 20px;
+}
+
+/*== Price ==*/
+.section-price{
+    max-width: 1114px;
+    height: 360px;
+    display: flex;
+}
+
+.section-price--cards{
+    width: 260px;
+    height: 360px;
+    background-color: white;
+    margin-left: 30px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-price--cards:first-child{
+    margin-left: 0px;
+}
+
+.section-price--cards h1{
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.section-price--cards h2{
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.section-price--cards h3{
+    font-size: 8px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color: #999;
+}
+
+.section-price--cards p{
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #7d7d7d;
+    margin-bottom: -15px;
+}
+
+.section-price--cards span{
+    color: #7d7d7d;
+    margin-top: 5px;
+}
+
+.section-price--cards a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 800;
+    color: white;
+    padding: 8px 42px;
+    background-color: #373737;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-price--cards a.active,
+.section-price--cards a:hover{
     background-color: var(--color-orange);
 }
