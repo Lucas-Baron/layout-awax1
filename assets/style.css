@@ -711,3 +711,149 @@ header{
 .section-premium .pointer.active{
     background-color: var(--color-orange);
 }
+
+/*== SOME facts ==*/
+.section-some-facts{
+    display: flex;
+}
+
+.section-facts{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-facts h1{
+    color: var(--color-orange);
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.section-facts span{
+    display: block;
+    background-color: #7d7d7d;
+    width: 12px;
+    height: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.section-facts h2{
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    max-width: 175px;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-facts p{
+    max-width: 175px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #555;
+    font-weight: 500;
+}
+
+/*== SOCIAL ==*/
+.social{
+    width: 100%;
+    height: 80px;
+    background-color: #fefefe;
+    border-bottom: 1px solide #555;
+}
+
+.section-social{
+    max-width: 680px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tell,
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tell img{
+    width: 40px;
+    height: 40px;
+}
+
+.tell h1{
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.icon-a--img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #34c5f2;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.icon-a--img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #137eb6;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.icon-a--img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #336296;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.icon-a--img3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e84138;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.icon-a--img4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b71c2a;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.icon p{
+    font-size: 10px;
+    line-height: 20px;
+    color: #999;
+    font-weight: 800;
+    margin-left: 10px;
+}
