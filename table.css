@@ -1,0 +1,22 @@
+table{
+    width: 600px;
+}
+
+td,
+th{
+    padding: 10px;
+}
+
+thead{
+    background-color: #999;
+    text-align: left;
+}
+
+tbody tr:hover{
+    background-color:#CCC;
+    cursor: pointer;
+}
+
+tbody td{
+    border-bottom: 1px solid #CCC;
+}
